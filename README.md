@@ -12,3 +12,6 @@ Design a function pos_tagging(R, S, T, E) that takes in input
   - the values in E[s] are the emission probabilities between s and the corresponding role defined by the key
   
 The function returns a dictionary whose keys are the words in S and the values are the roles assigned to these words, so that the selected assignment is the one of maximum likelihood.
+
+# DeviceSelection
+You are asked to test several speech recognition devices in order to choose the one giving the right performances. Some preliminary tests on these devices have been run, but more massive tests are necessary. Unfortunately, these further tests are very expensive and time-consuming, and thus we would like to choose a small subset of “more relevant” devices and we would like to run tests only on the selected devices. Clearly, we would like to select devices to test so that the best device is included in the test.
